@@ -1,0 +1,439 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+	background: #f0f0f0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+#header {
+	padding: 10px 0px 10px 0px;
+	background-color: black;
+	height: 300px;
+	background-image: url(https://i.imgur.com/7l1Ql8l.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	transition: 1s;
+
+}
+.othersites {
+	padding: 10px 0px 10px 0px;
+	background-color: black;
+	height: 155px;
+	background-image: url(https://wallpaperaccess.com/full/767277.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	box-shadow: 0px 10px 20px -20px;
+}
+nav {
+	position: relative;
+	margin-right: 15%;
+	margin-left: 15%;
+	text-align: center;
+}
+.header {
+	position: relative;
+	top: 30px;
+	background: rgba(255,162,41,0.9);
+	padding: 5px;
+	border-top: 2px solid rgba(255,181,84,0.9);
+	border-bottom: 2px solid rgba(255,181,84,0.9);
+}
+nav img {
+	width: 80px;
+	height: 80px;
+	margin-right: 30px;
+	vertical-align: middle;
+}
+ul {
+	display: inline;
+	height: auto;
+	vertical-align: middle;
+}
+li {
+	display: inline-block;
+	vertical-align: middle;
+}
+nav ul li p {
+	color: white;
+	font-size: 35px;
+	margin: 0 0 0 0;
+	padding: 20px 20px 20px 0px;
+}
+.bottomshadow {
+	background-image: url(https://i.imgur.com/TjbQq3j.png);
+	position: absolute;
+	height: 20px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	vertical-align: baseline;
+	top: 300px;
+	margin: 0;
+}
+.bottomshadow2 {
+	background-image: url(https://i.imgur.com/TjbQq3j.png);
+	position: absolute;
+	height: 20px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	vertical-align: baseline;
+	top: 155px;
+	margin: 0;
+}
+.topshadow {
+	position: absolute;
+	background-image: url(https://i.imgur.com/vQNvrWV.png);
+	height: 15px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	top: 0px;
+	margin: 0;
+
+}
+
+.slogan {
+	color: #222;
+	background: #F5D9B8;
+	padding: 2px;
+	text-align: center;
+	display: block;
+	box-shadow: 0px 10px 20px -20px gray;
+}
+.slogan p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+	margin: 0;
+	padding: 22px 0px 0px 0px;
+}
+.slogan .slogansmall {
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	margin: 0;
+	padding: 15px 0px 20px 0px;
+}
+
+.center {
+	border: 2px solid #e3e3e3;
+	background-color: white;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+.centerinfo {
+	border: 2px solid #e3e3e3;
+	background-color: white;
+	margin-left: 15%;
+	margin-right: 15%;
+	padding: 10px 30px;
+}
+h1 {
+	font-weight: 550;
+	color: #333;
+}
+.infoP {
+	color: #555;
+}
+.text {
+	color: white;
+	font-size: 20px;
+	margin: 0 20px 0 0;
+}
+.textheading {
+	color: white;
+	font-size: 30px;
+	margin: 0 0px 0 0;
+}
+.restaurant {
+	width: 99%;
+	border-collapse: collapse;
+	color: #222;
+	padding: 5px;
+}
+.restaurant td, th {
+	border: 2px solid #e3e3e3;
+	padding: 5px;
+	text-align: center;
+	font-size: 17px;
+}
+.restaurant td a {
+	text-decoration: none;
+	color: #222;
+}
+.restaurant td {
+	font-weight: 500;
+}
+.landingtable{
+	text-align: center;
+	width: 99%;
+	padding: 5px;
+	
+}
+.tableimg {
+	width: 10em;
+	height: 10em;
+}
+.landingtable td {
+	padding: 10px;
+}
+.tableheading {
+	font-size: 20px;
+	font-weight: 600;
+	color: #333;
+}
+.tablepara {
+	color: #555;
+	font-size: 15px;
+	font
+}
+.tablemcmenu td {
+	border: 2px solid #f0f0f0;
+}
+.tablemcmenu {
+	width: 100%;
+	border-collapse: collapse;
+}
+.mcimgtd {
+	text-align: center;
+}
+.mcimg {
+	height: 100px;
+	padding: 10px 0 10px 0;
+}
+.mcmenuname {
+	font-size: 18px;
+	padding: 10px 0 10px 30px;
+}
+.mcmenuprice {
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+	padding: 20px;
+}
+.mcmenuplus {
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+	padding: 0 5px;
+}
+.mcmenuminus {
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+	padding: 0 5px;
+}
+.mcmenuamount {
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+	padding: 0 5px;
+}
+.mcmenuprice {
+	font-size: 18px;
+	font-weight: 500;
+	text-align: right;
+	padding: 5px 15px;
+	height: 70px;
+}
+.mcmenuprice p {
+	font-weight: 600;
+	margin: 0;
+	display: inline;
+}
+.appad {
+	display: block;
+	text-align: right;
+	height: 320px;
+}
+.appbgcolor {
+	height: 300px;
+}
+.appimg {
+	display: inline;
+}
+.appimg img {
+	height: 25em;
+	position: absolute;
+	right: 300px;
+	top: 870px;
+}
+.appbgcolor {
+	text-align: left;
+	padding-left: 50px;
+}
+
+.apptext {
+	
+	margin: 0;
+	font-size: 2em;
+	color: #333;
+}
+.appundertext {
+	margin: 0;
+	margin-top: 15px;
+	font-size: 1em;
+	color: #555;
+	width: 400px;
+}
+.appad a {
+	text-decoration: none;
+}
+.container {
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
+	position: relative;
+}
+
+footer {
+	display: block;
+	background: #FFA229;
+	border-top: 2px solid rgba(255,181,84,0.9);
+	position: absolute;
+	width: 100%;
+	height: 83px;
+	bottom: 0px;
+	box-shadow: 0px -10px 20px -20px gray;
+}
+.footermain {
+	display: block;
+	background: #FFA229;
+	border-top: 2px solid rgba(255,181,84,0.9);
+	position: absolute;
+	width: 100%;
+	height: 83px;
+	bottom: -83px;
+	box-shadow: 0px -10px 20px -20px gray;
+}
+.footerul {
+	display: inline;
+	margin: 0;
+	margin-left: 15%;
+	padding: 0;
+
+}
+.footerul li {
+	color: white;
+}
+.footerul li p {
+	padding: 10px 20px;
+	font-size: 20px;
+}
+
+.footerlogo {
+	padding: 0;
+	display: inline;
+	float: right;
+	margin: 0;
+	margin-right: 15%;
+	margin-top: 9.5px;
+}
+
+.footerlogoimg {
+	display: inline;
+	width: 60px;
+	height: 60px;
+	margin: 0;
+}
+
+.footerlogotext {
+	display: inline;
+	color: white;
+	font-size: 30px;
+	margin: 0;
+	text-decoration: none;
+	display: inline;
+}
+.reviewbox {
+}
+.reviewtext {
+	color: #333;
+	resize: none;
+	height: 100px;
+	border: 0;
+	margin: 0;
+	width: 100%;
+	font-family: 'Raleway', sans-serif;
+	box-shadow: 0px 0px 10px -3px #999;
+	border: 2px solid #e3e3e3;
+	border-radius: 10px;
+	font-size: 20px;
+    box-sizing: border-box;
+    padding: 5px;
+
+}
+.reviewarea {
+	padding: 0px 20px 20px 20px;
+	border: 3px solid #e3e3e3;
+}
+.startext {
+	font-size: 30px;
+	color: #333;
+}
+.reviewarea ul {
+	padding: 0;
+}
+.star {
+	font-size: 40px;
+	margin: 0px 0px 10px 0px;
+	color: #333;
+}
+.reviewbox button {
+	width: 100px;
+	height: 40px;
+	font-size: 15px;
+	border: none;
+	cursor: pointer;
+	padding: 5px;
+	transition: 0.1s;
+}
+.reviewbox button:active {
+	cursor: pointer;
+	background: #c9c9c9;
+	text-decoration: none;
+}
+.commentSection {
+	width: 100%;
+}
+
+.comment {
+	width: 100%;
+	padding: 0px;
+	border: 3px solid #e3e3e3;
+	display: none;
+	margin: 0;
+	box-sizing: border-box;
+}
+#starReview {
+	color: #333;
+	font-size: 30px;
+}
+#textReview {
+	color: #333;
+	padding: 5px;
+	font-size: 20px;
+}
+#starReview2 {
+	color: #333;
+	font-size: 30px;
+}
+#textReview2 {
+	color: #333;
+	padding: 5px;
+	font-size: 20px;
+}
+#starReview3 {
+	color: #333;
+	font-size: 30px;
+}
+#textReview3 {
+	color: #333;
+	padding: 5px;
+	font-size: 20px;
+}

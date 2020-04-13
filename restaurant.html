@@ -1,0 +1,88 @@
+<!doctype HTML>
+<html>
+
+	<head>
+	<link rel="stylesheet" href="styles.css">
+	<title>
+	Feeder
+	</title>
+	<link rel="shortcut icon" href="https://i.imgur.com/Xm30jzM.png">
+		</head>
+		
+	<body>
+	
+		<header class="othersites">
+		<div class="topshadow"></div>
+		<div class="header">
+		<nav>
+			<ul>
+				<a href="index.html"><li><p class="textheading">Feeder</p></li></a>
+				<a href="index.html"><li><img src="https://i.imgur.com/Xm30jzM.png"></li></a>
+				<a href="info.html"><li><p class="text">Info</p></li></a>
+				<a href="review.html"><li><p class="text">Reviews</p></li></a>
+				<a href="restaurant.html"><li><p class="text">Restaurants</p></li></a>
+				<a href="https://www.figma.com/file/3nzDIeMprgRmY6e5YFMnFC/The-restorant-app?node-id=0%3A1" target="_blank"><li><p class="text">Prototype</p></li></a>
+			</ul>
+		</nav>
+		</div>
+		<div class="bottomshadow2"></div>
+		</header>
+		<br>
+			<div class="center">
+				<br>
+			<table align="center" class="restaurant">
+	   <tr>
+		 <th><p>Restaurant:</p></th>
+		 <th><p>Locations:</p></th>
+		 <th><p>Menu:</p></th>
+	   </tr> 
+		 <td> <a href="http://mcdonalds.ee/et" > <img style="display:block; margin:auto;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/McDonald%27s_Golden_Arches.svg/1200px-McDonald%27s_Golden_Arches.svg.png" width="100" height="80"> </a> </td>
+		 <td><p>Viru 24,  Paldiski maantee 44</p></td>
+		 <td><a href="mcmenu.html"><p>View menu</p> </a> </td>
+	   <tr>
+		 <td> <a href="https://www.hesburger.ee"> <img style="display:block; margin:auto;" src="https://i.imgur.com/qkKPDIw.png" height="50"></a></td>
+		 <td><p>Viru 27A,  Tartu maantee 87</p></td> 
+		 <td><a href="https://www.hesburger.ee/tooted"><p>View menu</p> </a> </td>
+	   </tr>
+	   <tr>
+	   	<td><a href="lido.ee"><img src="https://www.lido.ee/wp-content/uploads/2014/08/logo_web_uus.png" height="80"></a></td>
+	   	<td>Estonia puiestee 9,  Suur-Sõjamäe 4</td>
+	   	<td><a href="https://www.lido.ee/lido-menuu/"><p>View menu</p></a></td>
+	   </tr>
+		</table>
+			<br>
+			</div>
+			
+			<footer>
+			<ul class="footerul">
+				<a href=""><li class="footerli"><p>Reviews</p></li></a>
+				<a href=""><li class="footerli"><p>Info</p></li></a>
+				<a href=""><li class="footerli"><p>Restaurants</p></li></a>
+				<a href=""><li class="footerli"><p>Prototype</p></li></a>
+			</ul>
+			<ul class="footerlogo">
+				<a href="info.html" class="footerlogotext"><li><p class="footerlogotext">Feeder</p></li></a>
+				<a href="index.html"><li><img src="https://i.imgur.com/Xm30jzM.png" class="footerlogoimg"></li></a>
+			</ul>
+			</footer>
+			<script>
+				setInterval (slideshow, 8000)
+				var times = 1;
+				function slideshow() {
+				times++;
+  				if (times == 1) {
+  				document.getElementById("header").style.backgroundImage = "url('https://wallpaperaccess.com/full/767277.jpg')";
+  				console.log("1");
+  				}
+  				if (times == 2) {
+  				document.getElementById("header").style.backgroundImage = "url('https://wallpapersmug.com/download/3840x2400/b67e3e/pizza-slices-food.jpg')";
+  				console.log("2");
+  				}
+  				if (times == 3) {
+  				document.getElementById("header").style.backgroundImage = "url('http://www.farmhousethai.com/wp-content/uploads/2018/12/Farmhouse-48-1.jpg')";
+  				console.log("3");
+  				times = 0;
+  				}
+  				}
+  		</script>
+</html>
