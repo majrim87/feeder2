@@ -47,7 +47,7 @@
 				</div>
 
 			</div>
-			<div class="commentSection">
+		<!--	<div class="commentSection">
 			<p id="starReview3"></p>
 				<div class="comment" id="comment3">
 					<p id="textReview3"></p>
@@ -64,7 +64,15 @@
 				<div class="comment" id="comment">
 					<p id="textReview"></p>
 				</div>
+			
 			</div>
+			
+			-->
+			<div id="list">
+			
+			</div>
+			
+			
 			<br>
 			</div>
 			<br>
@@ -140,7 +148,7 @@
 									starCount = "★★★★★";
 									}
 
-				function upload () {
+			/*	function upload () {
 
 					comments++;
 					console.log(comments);
@@ -170,8 +178,73 @@
 					document.getElementById("textReview3").innerHTML = uploadText;
 					}
 					document.getElementById("textarea").value = "";
+				 */
+				/*  my stuff */
 
+				var prevcomment=[];
+				prevcomment.push("Very nice!");
+				prevcomment.push("I love it");
+				prevcomment.push("10 out of 10 would recomend");
+				var count= prevcomment.length;
+				
+				for (var index=0; index<count; index++){
+				
+					var textdiv=document.createElement("div");
+					textdiv.setAttribute("id","prevcommentdiv"+index);
+					textdiv.setAttribute("class", "commentSection");
+					document.getElementById("list").appendChild(textdiv);
+				
+					var star=document.createElement("p");
+					star.setAttribute("id", "prevstarReview"+index);
+					star.setAttribute("class", "starReview");
+					star.innerHTML = "Stars: " + starCount;
+					document.getElementById("prevcommentdiv"+index).appendChild(star);
+				
+					var paradiv=document.createElement("div");
+					paradiv.setAttribute("id","prevcomment"+index);
+					paradiv.setAttribute("class", "commentdiv");
+					document.getElementById("prevcommentdiv"+index).appendChild(paradiv);
+					
+					var mytext=document.createElement("p");
+					mytext.innerHTML=(prevcomment[Math.floor(Math.random()*count)])
+					mytext.setAttribute("class", "textReview");
+					document.getElementById("prevcomment"+index).appendChild(mytext);
+				
 				}
+				
+				function upload () {
+				 
+					comments++;
+					
+					var textdiv=document.createElement("div");
+					textdiv.setAttribute("id","commentdiv"+comments);
+					textdiv.setAttribute("class", "commentSection");
+					document.getElementById("list").appendChild(textdiv);
+					
+					var star=document.createElement("p");
+					star.setAttribute("id", "starReview"+comments);
+					star.setAttribute("class", "starReview");
+					star.innerHTML = "Stars: " + starCount;
+					document.getElementById("commentdiv"+comments).appendChild(star);
+				
+					var paradiv=document.createElement("div");
+					paradiv.setAttribute("id","comment"+comments);
+					paradiv.setAttribute("class", "commentdiv");
+					document.getElementById("commentdiv"+comments).appendChild(paradiv);
+					
+					var mytext=document.createElement("p");
+					mytext.innerHTML=document.getElementById("textarea").value;
+					mytext.setAttribute("class", "textReview");
+					document.getElementById("comment"+comments).appendChild(mytext);
+					
+					
+					
+					document.getElementById("textarea").value = "";
+				}
+				
+				
+				
+				
 
 
 
