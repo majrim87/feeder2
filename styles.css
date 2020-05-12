@@ -510,3 +510,29 @@ button{
 	bottom: -300px;
 	box-shadow: 0px -10px 20px -20px gray;
 }
+#mc_embed_signup_scroll{
+	font-size: 2em;
+    color: #333;
+}
+#mce-EMAIL{
+	font-size: 1em;
+    color: #333;
+}
+#mc_embed_signup_scroll{
+	margin:1em;
+}
+#mc-embedded-subscribe{
+	background-color:#ffa229;
+	color:white;
+	font-size:30px;
+	Padding:20px;
+	border:0;
+	border-radius:5px;
+	text-decoration: underline;
+	margin:40px;
+	
+}
+.clear{
+	display: flex;
+	justify-content: center;
+}
