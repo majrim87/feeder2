@@ -76,7 +76,7 @@
 									Click the phone to try it out.
 								</p>
 								
-								<a href="https://www.figma.com/file/3nzDIeMprgRmY6e5YFMnFC/The-restorant-app?node-id=0%3A1" target="_blank">  <button> Try it out! </button> </a>
+								<a href="https://www.figma.com/file/3nzDIeMprgRmY6e5YFMnFC/The-restorant-app?node-id=0%3A1" onclick="tryprotofunk()" target="_blank">  <button> Try it out! </button> </a>
 								
 						<div class="appimg">
 							<a href="https://www.figma.com/file/3nzDIeMprgRmY6e5YFMnFC/The-restorant-app?node-id=0%3A1" target="_blank"><img src="https://i.imgur.com/qgdtVQR.png"></a>
@@ -146,15 +146,14 @@
   				}
   				}
 			</script>
-			
+			onclick="tryprotofunk()"
 			<script>
 			
-			function typroto(){
-				gtag('event', '');
+			function tryprotofunk(){
+				console.log("Prototype is pressed");
+				gtag('event', 'Try prototype');
 			}
-			function aboutus(){
 			
-			}
 			function subscribefunk(){
 				console.log("Subscribe is pressed");
 				gtag('event', 'Subscribe');
