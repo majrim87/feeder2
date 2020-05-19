@@ -83,6 +83,8 @@
 						</div>
 				</div>
 			</div>
+			<div id="tnx">
+			</div>
 			<br>
 			<br>
 			<br>
@@ -169,5 +171,14 @@
 
 			  gtag('config', 'UA-166297915-1');
 			</script>
-
+			
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+			
+			<script>
+				$("#mc-embedded-subscribe").click(function(){
+				$("#mc_embed_signup").hide();
+				$("#tnx").append("Thanks for subscribing!");
+				});
+				
+			</script>
 </html>
