@@ -128,7 +128,7 @@ nav ul li p {
 	margin-right: 15%;
 }
 .centerinfo {
-	border: 2px solid #e3e3e3;
+	/*border: 2px solid #e3e3e3;*/
 	background-color: white;
 	margin-left: 15%;
 	margin-right: 15%;
@@ -212,29 +212,9 @@ h1 {
 	font-size: 15px;
 	font
 }
-.tablemcmenu td {
-	border: 2px solid #f0f0f0;
-}
-.tablemcmenu {
-	width: 100%;
-	border-collapse: collapse;
-}
-.mcimgtd {
-	text-align: center;
-}
-.mcimg {
-	height: 100px;
-	padding: 10px 0 10px 0;
-}
-.mcmenuname {
-	font-size: 18px;
-	padding: 10px 0 10px 30px;
-}
-.mcmenuprice {
-	font-size: 18px;
-	font-weight: 600;
-	text-align: center;
-	padding: 20px;
+
+.mcmenuprice{
+	padding:10px;
 }
 .mcmenuplus {
 	font-size: 18px;
@@ -254,18 +234,58 @@ h1 {
 	text-align: center;
 	padding: 0 5px;
 }
-.mcmenuprice {
+.imgandtitle{
+	display:flex;
+	align-items: center;
+	width:80% 	
+}
+@media screen and (max-width: 900px) {
+	.oneitem {
+		flex-direction: column;
+		align-content: center;
+	}
+}
+
+.oneitem{
+	display:flex;
+	flex-wrap:wrap;
+	align-items: center;
+	justify-content: space-between;
+	width:90%;
+	margin:30px;
+}
+.addremove{
+	display:flex;
+	align-items: center;
+	/*width:30%;*/
+}
+.mcimg{
+	width:25%;
+	height:auto;
+}
+.totalprice{
+	display:flex;
+	justify-content: flex-end;
+	align-items: center;
+	
+	width:90%;
+}
+.mcmenuname {
 	font-size: 18px;
-	font-weight: 500;
-	text-align: right;
-	padding: 5px 15px;
-	height: 70px;
 }
-.mcmenuprice p {
+
+
+.mcmenuminus {
+font-weight: 600;
+}
+
+.mcmenuamount {
+	font-size: 18px;
 	font-weight: 600;
-	margin: 0;
-	display: inline;
+	text-align: center; 	
 }
+
+
 .appad {
 	display: block;
 	/*text-align: right;*/
@@ -506,6 +526,17 @@ footer {
 	
 	padding:20px;
 }
+@media screen and (max-width: 800px) {
+	.screens {
+		flex-direction: column;
+		align-content: center;
+	}
+}
+/*@media screen and (max-width: 700px) {
+	.{
+		width:60%;	
+	}
+}*/
 .img{
 	width:60%;
 }
@@ -518,6 +549,34 @@ footer {
 	font-weight: 600;
 	color: #333;
 }
+.screensr{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	padding:20px;
+}
+@media screen and (max-width: 800px) {
+	.screensr {
+		flex-direction: column;
+		align-content: center;
+	}
+}
+.shotsr{
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	text-align:center;
+	font-size: 17px;
+	font-weight: 600;
+	color: #333;
+	width:80%;
+	padding:20px;
+}
+.restaurantlogo{
+	
+	width:auto;
+}
+
 button{
 	background-color:#ffa229;
 	color:white;
@@ -538,8 +597,8 @@ button{
 	border-top: 2px solid rgba(255,181,84,0.9);
 	position: absolute;
 	width: 100%;
-	height: 83px;
-	bottom: -300px;
+	/*height: 83px;
+	bottom: -300px;*/
 	box-shadow: 0px -10px 20px -20px gray;
 }
 
